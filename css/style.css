@@ -17,6 +17,9 @@ body, html
 #background-splatters
 {
     position: absolute;
+    width: 100vw;
+    height: 150vh;
+    overflow: hidden;
 }
 
 .dark
@@ -36,6 +39,7 @@ body, html
     z-index: -1;
     position: absolute;
     width: 100%;
+    overflow-x: clip;
     top: 0;
     left: 0;
 }
