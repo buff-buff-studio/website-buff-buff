@@ -268,6 +268,40 @@ body, html
     margin-left: -0.1rem;
 }
 
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+  
+footer h4 {
+    margin-bottom: 10px;
+}
+  
+footer p {
+  margin: 5px 0;
+}
+  
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+  
+footer a:hover {
+    text-decoration: underline;
+}
+  
+.contact, .pages, .rights {
+    margin-bottom: 20px;
+}
+  
+.rights {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 1024px)
 {
     .content

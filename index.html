@@ -59,7 +59,7 @@
             <div class="grid">
                 <div class="column-6 column-12-tablet">
                     <div class="box">
-                        <div class="title centered-tablet">
+                        <div class="title main centered-tablet">
                             Buff Buff Studios
                         </div>
                         <div class="block dark">
@@ -191,54 +191,39 @@
                 Projects
             </div>
             <div< class="grid">
-                <div class="column-3 column-6-tablet">
-                    <div class="box">
-                        <img class="project-thumbnail" src="images/sketch_fleets_tn.png" alt="Sketch Fleets"/>
-                        <a class="project-title" href="https://buff-buff-studios.itch.io/sketch-fleets">
-                            Sketch Fleets
-                        </a>
-                        <div class="project-info">
-                            A hand-drawn space odyssey!
-                        </div>
-                    </div>
-                </div>
-                <div class="column-3 column-6-tablet">
-                    <div class="box">
-                        <img class="project-thumbnail" src="images/sketch_fleets_recolored_tn.png" alt="Sketch Fleets Recolored"/>
-                        <a class="project-title" href="https://buff-buff-studios.itch.io/sketch-fleets-recolored">
-                            Sketch Fleets: Recolored
-                        </a>
-                        <div class="project-info">
-                            A hand drawn Space Odyssey, recolored!
-                        </div>
-                    </div>
-                </div>
-                <div class="column-3 column-6-tablet">
-                    <div class="box">
-                        <img class="project-thumbnail" src="images/between_death_tn.png" alt="Between Death"/>
-                        <a class="project-title" href="https://buff-buff-studios.itch.io/between-death">
-                            Between Death
-                        </a>
-                        <div class="project-info">
-                            Gothic RPG where Lilith battles corruption and restores balance between Chaos and Order.
-                        </div>
-                    </div>
-                </div>
-                <div class="column-3 column-6-tablet">
-                    <div class="box">
-                        <img class="project-thumbnail" src="images/solis_tn.png" alt="Solis"/>
-                        <a class="project-title" href="https://buff-buff-studios.itch.io/solis">
-                            Solis
-                        </a>
-                        <div class="project-info">
-                            Co-op platformer where Nina and RAM solve puzzles in a solarpunk world.
-                        </div>
-                    </div>
-                </div>
+                <section class="categories">
+                    <ul class="category-menu">
+                        <li class="category-menu__item" data-category="item">
+                            <video src="/videos/sketch-video.mp4" class="category-menu__video" loop muted></video>
+                            <a href="https://buff-buff-studios.itch.io/sketch-fleets-recolored" class="category-menu__link">
+                                <img src="/images/projects/sketch.png" alt="Sketch Fleets Logo" class="category-menu__img">
+                            </a>
+                        </li>
+                        <li class="category-menu__item" data-category="item">
+                            <video src="videos/dlif-video.mp4" class="category-menu__video" loop muted></video>
+                            <a href="https://github.com/buff-buff-studio/Dont-Let-It-Fall" class="category-menu__link">
+                                <img src="/images/projects/dlif.png" alt="Don't Let it Fall Logo" class="category-menu__img">
+                            </a>
+                        </li>
+                        <li class="category-menu__item" data-category="item">
+                            <video src="videos/between-video.mp4" class="category-menu__video" loop muted></video>
+                            <a href="https://buff-buff-studios.itch.io/between-death" class="category-menu__link">
+                                <img src="/images/projects/between.png" alt="Betweem Death Logo" class="category-menu__img">
+                            </a>
+                        </li>
+                        <li class="category-menu__item" data-category="item">
+                            <video src="/videos/solis-video.mp4" class="category-menu__video" loop muted></video>
+                            <a href="https://buff-buff-studios.itch.io/solis" class="category-menu__link">
+                                <img src="/images/projects/solis.png" alt="Solis Logo" class="category-menu__img">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
             </div>
             <div class="spacer">
             </div>
         </div>
+
         <div id="section-netbuff" class="section">
             <div class="grid">
                 <div class="column-6 column-12-mobile"> 
@@ -249,7 +234,7 @@
                                 <span class="buff">Buff</span>
                             </div>
                         </div> 
-                        <div class="block">
+                        <div class="block" style="font-size: 20px;">
                             <p>
                                 <strong>NetBuff</strong> is the multiplayer solution developed by Buff Buff Studios, designed to deliver simplicity, performance, and efficiency. Created for developers seeking a lightweight and intuitive alternative, NetBuff is perfect for quickly and seamlessly integrating multiplayer functionalities.
                             </p>
@@ -257,10 +242,11 @@
                                 With a focus on performance, NetBuff ensures smooth gameplay even in complex scenarios, making it a reliable option for both indie games and larger projects. Our goal is to break down the barriers of multiplayer development, so you can focus on what truly matters: creating amazing games.
                             </p>
                         </div>
+                        <button href="/netbuff">Learn More</button>
                     </div>         
                 </div>
                 <div class="column-6 column-12-mobile">     
-                    <a href="/NetBuff" target="_blank"><img class="image-display" src="images/net_buff.png" alt="NetBuff"/></a>       
+                    <a href="/netbuff" target="_blank"><img class="image-display" src="images/net_buff.png" alt="NetBuff"/></a>       
                 </div>
             </div>
             <br>
@@ -289,6 +275,25 @@
             <div class="background-stripe" target="section-projects" style="transform: skewY(-2deg);">
             </div>
         </div>
+
+        <footer>
+            <div class="contact">
+              <h4>Contact</h4>
+              <a href="mailto:buffbuffstudios@gmail.com" target="_blank">Email: buffbuffstudios@gmail.com</a>
+              <a href="https://wa.me/+5531997614314" target="_blank">Phone: +55 (31) 99761-4314</a>
+            </div>
+            <div class="pages">
+              <h4>Pages</h4>
+              <a href="/">Home</a>
+              <a href="/netbuff">NetBuff</a>
+              <a href="https://github.com/buff-buff-studio" target="_blank">GitHub</a>
+              <a href="https://buff-buff-studios.itch.io/" target="_blank">Itch.io</a>
+            </div>
+            <div class="rights">
+              <p>&copy; 2025 Buff Buff Studios. All rights reserved.</p>
+            </div>
+          </footer>
     </body>
     <script src="js/core.js"></script>
+    <script src="js/categories.js"></script>
 </html>
