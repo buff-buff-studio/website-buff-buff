@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NetBuff Network Library</title>
+        <!--Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Icons-->
+        <script src="https://kit.fontawesome.com/02cd9dcefc.js" crossorigin="anonymous"></script>
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="netbuff_box">
+                <span class="net">Net</span>
+                <span class="buff">Buff</span>
+            </div>
+            <img id="logo" src="images/logo.png" alt="NetBuff Logo" />
+        </div> 
+        <div id="menu-bar">
+            <!-- About | Features | Gallery | Getting Started -->
+            <div class="menu-item" target="section-about">
+                About
+            </div>
+            <div class="menu-item-spacing">
+            </div>
+            <div class="menu-item" target="section-features">
+                Features
+            </div>
+            <div class="menu-item-spacing">
+            </div>
+            <div class="menu-item" target="section-gallery">
+                Gallery
+            </div>
+            <div class="menu-item-spacing">
+            </div>
+            <div class="menu-item" target="section-starting">
+                Starting
+            </div>
+        </div> 
+        <div id="header-space">
+        </div>
+        <div id="section-about" class="box grid">
+            <div class="column-6 column-12-tablet">
+                <div class="title">
+                    NetBuff Lib
+                </div>
+                <div class="subtitle">
+                    Simple, direct, and efficient multiplayer
+                </div>
+                <div class="grid desktop">
+                    <button class="important-button column-5" href="https://netbuff.buffbuffstudios.com/">
+                        <div class="icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="text">
+                            Docs
+                        </div>
+                    </button>
+                    <div class="column-1">
+                    </div>
+                    <button class="important-button column-5" href="https://netbuff.buffbuffstudios.com/getting_started/">
+                        <div class="icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="text">
+                            Install
+                        </div>
+                    </button>
+                    <div class="column-1">
+                    </div>
+                </div>
+            </div>
+            <div class="content column-6 column-12-tablet">
+                <p>
+                    NetBuff is a networking system based on the Unity game engine. Initially created for a college project, the system has been improved to the point of deserving to be polished and released / made available separately.
+                </p>
+                
+                <p>
+                    The NetBuff comes as a lighter and simpler alternative to other existing solutions such as Unity's own NGO (Netcode For GameObjects) and third-party solutions (Mirror, etc...)
+                </p>
+                
+                <div class="grid tablet mobile">
+                    <button class="important-button column-12" href="https://netbuff.buffbuffstudios.com/">
+                        <div class="icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="text">
+                            Docs
+                        </div>
+                    </button>
+                    <button class="important-button column-12" href="https://netbuff.buffbuffstudios.com/getting_started/">
+                        <div class="icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="text">
+                            Install
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="divider">
+        </div>
+        <div id="section-features" class="box">
+            <div class="title centered">
+                Features
+            </div>
+            <div class="content grid">
+                <div class="column-6 column-12-tablet">
+                    <b class="marker"></b>&emsp;Advanced Editor tools
+                    <br>
+                    <b class="marker"></b>&emsp;Hot-Reload (Server maintains its state after a recompile)
+                    <br>
+                    <b class="marker"></b>&emsp;Session Management
+                    <br>
+                    <b class="marker"></b>&emsp;Server password protection
+                    <br>
+                    <b class="marker"></b>&emsp;Support for multiple scenes
+                </div>
+                <div class="column-6 column-12-tablet">
+                    <b class="marker"></b>&emsp;Server discovery system
+                    <br>
+                    <b class="marker"></b>&emsp;Reliable packet delivery
+                    <br>
+                    <b class="marker"></b>&emsp;Lightweight and optimized
+                    <br>
+                    <b class="marker"></b>&emsp;Simple to implement  
+                </div>
+            </div>
+        </div>
+        <div class="divider">
+        </div>
+        <div id="section-gallery" class="box">
+            <div class="title centered">
+                Gallery
+            </div>
+            <div class="grid">
+                <div class="gallery-item column-6 column-12-mobile">
+                    <img src="images/image_1.png" alt="Gallery Image 1" />
+                    <div class="subtitle">
+                        NetBuff Components Architecture
+                    </div>
+                </div>
+                <div class="gallery-item column-6 column-12-mobile">
+                    <img src="images/image_2.png" alt="Gallery Image 2" />
+                    <div class="subtitle">
+                        NetBuff Getting Started Project
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section-starting" class="box inverse">
+            <div class="title">
+                Getting Started
+            </div>
+            <div class="grid">
+                <div class="column-6 column-12-tablet">
+                    It's very easy to get started with NetBuff.
+                </div>
+                <div class="column-6 column-12-tablet">
+                    Click the button below to get started.
+                    <br><br>
+                    <button class="important-button inverse column-12" href="https://netbuff.buffbuffstudios.com/">
+                        <div class="icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="text">
+                            Install NetBuff
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/index.js"></script>
+</html>

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html
+{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: "Jost", serif;
+}
+
+#header-space
+{
+    height: 110px;
+}
+
+#header
+{
+    position: fixed;
+    top: 0;
+    background-color: #ddd;
+    color: #222;
+    width: 100%;
+    font-family: "Work Sans", serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 50px;
+    height: 30px;
+}
+
+#logo
+{
+    height: 40px;
+    display: flex;
+    float: right;
+    padding-right: 100px;
+    transform: translateY(-5px);
+}
+
+#menu-bar
+{
+    position: fixed;
+    top: 70px;
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    color: #222;
+    display: flex;
+    width: calc(100% - 100px);
+}
+
+.menu-item
+{
+    cursor: pointer;
+    text-align: center;
+    gap: auto;
+}
+
+.menu-item:first-child
+{
+    text-align: left;
+}
+
+.menu-item:last-child
+{
+    text-align: right;
+}
+
+.menu-item-spacing
+{
+    flex-grow: 1;
+}
+
+.title
+{
+    background-image: linear-gradient(45deg, #83CA9F, #106D87);
+    color: transparent;
+    background-clip: text;
+    font-family: "Work Sans", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.subtitle
+{
+    color: #888;
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.title + .subtitle
+{
+    margin-top: -30px;
+}
+
+.content
+{
+    color: white;
+    font-size: 20px;
+}
+
+.box
+{
+    margin: 50px;
+    width: calc(100% - 100px);
+}
+
+.important-button
+{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    display: flex;
+    background-color: #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s, background-color 0.2s;
+}
+
+.important-button:hover
+{
+    border: 2px solid #83CA9F;
+}
+
+.important-button:active
+{
+    border: 2px solid white;
+    background-color: #222;
+}
+
+.important-button:active .icon
+{
+    background: linear-gradient(45deg, #73BA8F, #005D77);
+}
+
+.important-button .icon
+{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px 0px 0px 4px;
+    width: 50px;
+    background: linear-gradient(45deg, #83CA9F, #106D87);
+    transition: background 0.2s;
+}
+
+.important-button .text
+{
+    line-height: 50px;
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.important-button.inverse
+{
+    border: 2px solid #222;
+    background-color: white;
+}
+
+.important-button.inverse:hover
+{
+    border: 2px solid white;
+}
+
+.important-button.inverse:active
+{
+    border: 2px solid #222;
+    background-color: #888;
+}
+
+
+.important-button.inverse .text
+{
+    color: #222;
+}
+
+.important-button.inverse .icon
+{
+    background: #222;
+}
+
+.marker
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #83CA9F, #106D87);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.centered
+{
+  text-align: center;
+}
+
+.gallery-item img
+{
+    border-radius: 10px;
+}
+
+.gallery-item:nth-child(odd) img
+{
+  width: calc(100% - 20px);
+}
+
+.gallery-item:nth-child(even) img
+{
+  width: 100%;
+}
+
+.divider
+{
+    height: 1px;
+    background: linear-gradient(45deg, #83CA9F, #106D87);
+    margin: 50px;
+}
+
+.box.inverse
+{
+    margin: 0px;
+    padding: 50px;
+    background: linear-gradient(45deg, #83CA9F, #106D87);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box.inverse > .title
+{
+    color: white;
+}
+
+.netbuff_box
+{
+    height: 5px;
+    display: flex;
+    gap: 0.2rem;
+    align-items: baseline;
+}
+
+.net 
+{
+    font-family: 'Georgia', serif; /* Fonte clássica para "Net" */
+    color: #1a1a1a;
+    letter-spacing: -0.02em;
+}
+
+.buff 
+{
+    font-family: 'Arial Black', sans-serif; /* Fonte negrita para "Buff" */
+    background: linear-gradient(90deg, #004f8c, #00a97e); /* Gradiente */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -0.1rem;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .content
+    {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    #header
+    {
+        padding-left: 25px;
+    }
+
+    #logo
+    {
+        padding-right: 50px;
+    }
+
+    #menu-bar
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+        width: calc(100% - 50px);
+    }
+
+    .divider
+    {
+        margin: 50px 25px;
+    }
+
+    .box
+    {
+        margin: 25px;
+        width: calc(100% - 50px);
+    }
+
+    .box.inverse
+    {
+        margin: 0px;
+        padding: 25px;
+    }   
+
+    .gallery-item img
+    {
+        width: 100% !important;
+    }
+}

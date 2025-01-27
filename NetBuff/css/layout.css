@@ -1,0 +1,230 @@
+/* Desktop */
+.tablet, .mobile 
+{
+  display: none;
+}
+
+.desktop
+{
+  display: block;
+}
+
+/* grid , column-1, column-2, column-3, column-4, column-5, column-6, column-7, column-8, column-9, column-10, column-11, column-12 */
+.grid 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-1 
+{
+  width: 8.33%;
+}
+
+.column-2 
+{
+  width: 16.66%;
+}
+
+.column-3 
+{
+  width: 25%;
+}
+
+.column-4 
+{
+  width: 33.33%;
+}
+
+.column-5 
+{
+  width: 41.66%;
+}
+
+.column-6 
+{
+  width: 50%;
+}
+
+.column-7 
+{
+  width: 58.33%;
+}
+
+.column-8 
+{
+  width: 66.66%;
+}
+
+.column-9 
+{
+  width: 75%;
+}
+
+.column-10 
+{
+  width: 83.33%;
+}
+
+.column-11 
+{
+  width: 91.66%;
+}
+
+.column-12 
+{
+  width: 100%;
+}
+
+.tablet, .mobile
+{
+  display: none;
+}
+
+/* Tablet */
+@media (max-width: 1024px) 
+{
+  .desktop, .mobile
+  {
+    display: none;
+  }
+
+  .tablet 
+  {
+    display: block;
+  }
+
+  .column-1-tablet 
+  {
+    width: 8.33%;
+  }
+
+  .column-2-tablet 
+  {
+    width: 16.66%;
+  }
+
+  .column-3-tablet 
+  {
+    width: 25%;
+  }
+
+  .column-4-tablet 
+  {
+    width: 33.33%;
+  }
+
+  .column-5-tablet 
+  {
+    width: 41.66%;
+  }
+
+  .column-6-tablet 
+  {
+    width: 50%;
+  }
+
+  .column-7-tablet 
+  {
+    width: 58.33%;
+  }
+
+  .column-8-tablet 
+  {
+    width: 66.66%;
+  }
+
+  .column-9-tablet 
+  {
+    width: 75%;
+  }
+
+  .column-10-tablet 
+  {
+    width: 83.33%;
+  }
+
+  .column-11-tablet 
+  {
+    width: 91.66%;
+  }
+
+  .column-12-tablet 
+  {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) 
+{
+  .desktop, .tablet
+  {
+    display: none;
+  }
+
+  .mobile
+  {
+    display: block;
+  }
+
+  .column-1-mobile 
+  {
+    width: 8.33%;
+  }
+
+  .column-2-mobile 
+  {
+    width: 16.66%;
+  }
+
+  .column-3-mobile 
+  {
+    width: 25%;
+  }
+
+  .column-4-mobile 
+  {
+    width: 33.33%;
+  }
+
+  .column-5-mobile 
+  {
+    width: 41.66%;
+  }
+
+  .column-6-mobile 
+  {
+    width: 50%;
+  }
+
+  .column-7-mobile 
+  {
+    width: 58.33%;
+  }
+
+  .column-8-mobile 
+  {
+    width: 66.66%;
+  }
+
+  .column-9-mobile 
+  {
+    width: 75%;
+  }
+
+  .column-10-mobile 
+  {
+    width: 83.33%;
+  }
+
+  .column-11-mobile 
+  {
+    width: 91.66%;
+  }
+
+  .column-12-mobile 
+  {
+    width: 100%;
+  }
+}
