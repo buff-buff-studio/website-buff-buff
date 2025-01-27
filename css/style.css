@@ -275,6 +275,30 @@ button:active
     color: #333;
 }
 
+.netbuff_box
+{
+    display: flex;
+    gap: 0.2rem;
+    align-items: baseline;
+}
+
+.net 
+{
+    font-family: 'Georgia', serif; /* Fonte clássica para "Net" */
+    color: #ffffff;
+    letter-spacing: -0.02em;
+}
+
+.buff 
+{
+    font-family: 'Arial Black', sans-serif; /* Fonte negrita para "Buff" */
+    background: linear-gradient(90deg, #004f8c, #00a97e); /* Gradiente */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -0.1rem;
+}
+
 @media (max-width: 1024px) 
 {
     #section-header
