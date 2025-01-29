@@ -254,13 +254,15 @@ body, html
 .net 
 {
     font-family: 'Georgia', serif; /* Fonte clássica para "Net" */
+    font-weight: normal;
     color: #1a1a1a;
     letter-spacing: -0.02em;
 }
 
 .buff 
-{
-    font-family: 'Arial Black', sans-serif; /* Fonte negrita para "Buff" */
+{    
+    font-family: "Work Sans", serif;
+    font-weight: 700;
     background: linear-gradient(90deg, #004f8c, #00a97e); /* Gradiente */
     background-clip: text;
     -webkit-background-clip: text;

@@ -164,7 +164,8 @@ body, html
 
 .title
 {
-    font-family: "Arial Black", serif;
+    font-family: "Work Sans", serif;
+    font-weight: 700;
     font-size: 40px;
     margin-bottom: 10px; 
 }
@@ -172,7 +173,8 @@ body, html
 .title.main
 {
     font-size: 50px;
-    font-family: 'Arial Black', sans-serif; /* Fonte negrita para "Buff" */
+    font-family: "Work Sans", serif;
+    font-weight: 700;
     background: linear-gradient(45deg, #106D87, #82C99E); 
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
@@ -315,13 +317,15 @@ button:active
 .net 
 {
     font-family: 'Georgia', serif; /* Fonte clássica para "Net" */
+    font-weight: normal;
     color: #ffffff;
     letter-spacing: -0.02em;
 }
 
 .buff 
-{
-    font-family: 'Arial Black', sans-serif; /* Fonte negrita para "Buff" */
+{    
+    font-family: "Work Sans", serif;
+    font-weight: 700;
     background: linear-gradient(90deg, #004f8c, #00a97e); /* Gradiente */
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
